@@ -2,7 +2,7 @@
 Simple codes for transcribing an audio file using OpenAI's Whisper locally or via API.
 
 # How to use
-First, `pdm install` to set up the repo.
+First, `pdm install` to set up the repo. If not installed, you can directly get PDM [here](https://pdm.fming.dev/latest/) or manage it via e.g., [asdf](https://github.com/asdf-vm/asdf).
 
 ## Use locally
 Simply type `pdm run whisper <path to your audio file>`. Then, whisper runs locally and creates output files. See whisper's help by `pdm run whisper --help` for options.
